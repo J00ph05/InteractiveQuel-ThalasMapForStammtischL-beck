@@ -1,6 +1,6 @@
 import json
 
-# Bildgröße deiner Karte (Pixel)
+# Bildgröße Karte (Pixel)
 w, h = 4096, 3072
 
 # Orte laden
@@ -36,7 +36,7 @@ html = f"""<!DOCTYPE html>
     map.fitBounds(imageBounds);
 """
 
-# Marker aus JSON hinzufügen
+# Marker aus JSON
 for ort in orte:
     name = ort["name"]
     x, y = ort["coords"]
