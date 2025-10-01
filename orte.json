@@ -2,26 +2,36 @@
   {
     "name": "Bluekeep",
     "coords": [2183, 2060],
-    "link": "https://www.notion.so/II-Geographie-2593adc3c10480749d69f938cd6f115e?p=26f3adc3c10480cabfa1dbf45aadc75c&pm=c"
+    "link": "https://www.notion.so/Bluekeep-26f3adc3c10480cabfa1dbf45aadc75c"
   },
   {
-    "name": "Lazy Parrot",
-    "coords": [1878, 2290],
-  "link": "https://www.notion.so/II-Geographie-2593adc3c10480749d69f938cd6f115e?p=2713adc3c10480eba194f7a6a6325833&pm=c"
+    "name": "Chateau Nouveau Depart",
+    "coords": [1771, 2428],
+    "link": "https://www.notion.so/Ch-teau-Nouveau-D-part-2703adc3c10480ac9d4becef44623a66"
   },
   {
-    "name": "Turm der Erbauer",
-    "coords": [2240, 2148],
-  "link": "https://www.notion.so/Turm-der-Erbauer-26f3adc3c10480d1a29ae8940dae3d08"
+    "name": "Demaude",
+    "coords": [1502, 2364],
+    "link": "https://www.notion.so/Demaude-26f3adc3c104808b9e3dff0ab02a19c5"
   },
   {
     "name": "Gallet Quelle",
     "coords": [2354, 1959],
-  "link": "https://www.notion.so/Gallet-Quelle-26f3adc3c1048031b29ce45f75979e36"
+    "link": "https://www.notion.so/Gallet-Quelle-26f3adc3c1048031b29ce45f75979e36"
   },
   {
     "name": "Kloster der Mystra",
     "coords": [2449, 2013],
-  "link": "https://www.notion.so/Kloster-der-Mystra-26f3adc3c1048068a474c652ad982bd5"
+    "link": "https://www.notion.so/Kloster-der-Mystra-26f3adc3c1048068a474c652ad982bd5"
+  },
+  {
+    "name": "Lazy Parrot",
+    "coords": [1878, 2290],
+    "link": "https://www.notion.so/Lazy-Parrot-2713adc3c10480eba194f7a6a6325833"
+  },
+  {
+    "name": "Turm der Erbauer",
+    "coords": [2240, 2148],
+    "link": "https://www.notion.so/Turm-der-Erbauer-26f3adc3c10480d1a29ae8940dae3d08"
   }
 ]
