@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Quel'Thalas</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    body, html { margin: 0; height: 100%; }
+    #map { width: 100%; height: 100%; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script>
+    var map = L.map('map', {
+      crs: L.CRS.Simple,
+      minZoom: -1,
+      maxZoom: 4
+    });
+
+    var w = 4096, h = 3072;
+    var imageBounds = [[0,0], [h,w]];
+    L.imageOverlay('Quel-Thalas.jpg', imageBounds).addTo(map);
+    map.fitBounds(imageBounds);
+
+    L.marker([1012, 2183]).addTo(map)
+      .bindPopup('<b>Bluekeep</b><br><a href="https://www.notion.so/Bluekeep-26f3adc3c10480cabfa1dbf45aadc75c" target="_blank">Zur Wiki-Seite</a>');
+    
+    L.marker([782, 1878]).addTo(map)
+      .bindPopup('<b>Lazy Parrot</b><br><a href="https://www.notion.so/Lazy-Parrot-2713adc3c10480eba194f7a6a6325833" target="_blank">Zur Wiki-Seite</a>');
+    
+    L.marker([924, 2240]).addTo(map)
+      .bindPopup('<b>Turm der Erbauer</b><br><a href="https://www.notion.so/Turm-der-Erbauer-26f3adc3c10480d1a29ae8940dae3d08" target="_blank">Zur Wiki-Seite</a>');
+    
+    L.marker([1113, 2354]).addTo(map)
+      .bindPopup('<b>Gallet Quelle</b><br><a href="https://www.notion.so/Gallet-Quelle-26f3adc3c1048031b29ce45f75979e36" target="_blank">Zur Wiki-Seite</a>');
+    
+    L.marker([782, 1878]).addTo(map)
+      .bindPopup('<b>Kloster der Mystra</b><br><a href="https://www.notion.so/Kloster-der-Mystra-26f3adc3c1048068a474c652ad982bd5" target="_blank">Zur Wiki-Seite</a>');
+    
+  </script>
+</body>
+</html>
